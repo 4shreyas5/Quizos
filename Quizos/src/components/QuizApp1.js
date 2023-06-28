@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/QuizApp.css";
 
-const QuizApp = () => {
+const QuizApp1 = () => {
   const [questions] = useState([
     {
       question: "What is the native cryptocurrency of the Tezos blockchain?",
@@ -141,4 +141,4 @@ const QuizApp = () => {
   return <div className="app-container">{renderQuiz()}</div>;
 };
 
-export default QuizApp;
+export default QuizApp1;
