@@ -13,12 +13,7 @@ function App(){
         <BrowserRouter>
         <Routes>
             <Route path='/' element={<Login/>} ></Route>
-            <Route path='/home' element={<Login/>} ></Route>
-            <Route path='/quiz' element={<QuizApp/>}></Route>
-            <Route path='/certificate' element={<Certificate/>}></Route>
-            <Route path='/certificateNFT' element={<CertificateNFT/>}></Route>
-
-
+            {/* <Route path='/quiz' element={<QuizApp/>}></Route> */}
         </Routes>
         </BrowserRouter>
     </div>

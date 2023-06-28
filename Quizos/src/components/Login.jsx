@@ -1,33 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { connectWallet, getAccount } from '../utils/wallet';
-import { useState, useEffect } from 'react';
+import { connectWallet, getAccount } from './wallet';
+
 
 const Login = () => {
-  const[account, setAccount] = useState("");
+const [account, setAccount] = useState("");
 
-  useEffect(() => {
-    (async () => {
-      // TODO 5.b - Get the active account
-      const account = await getAccount();
-      setAccount(account);
-    })();
-  }, []);
-
-  const onConnectWallet = async () => {
+useEffect(() => {
+  (async () =>{
+  setAccount("");
+})();
+},[]);
+const onConnectWallet = async () =>{
     await connectWallet();
-    const account = await getAccount();
-    setAccount(account);
+    const activeAccount = await getAccount();
+    setAccount(activeAccount);
   };
-
   return (
-    <div className='grid m-10'>
-        {/* <Link to='/quiz'> */}
-        {/* <Link to='/certificate'> */}
-          <button onClick={onConnectWallet}>
-          { account ? account : "Connect Wallet"}
-          </button>
-          {/* </Link>  */}
+    <div>
+        <button onClick={onConnectWallet}>Login with Temple Wallet</button>
     </div>
   );
 };
