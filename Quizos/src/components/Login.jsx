@@ -19,7 +19,10 @@ const onConnectWallet = async () =>{
   };
   return (
     <div>
-        <button onClick={onConnectWallet}>Login with Temple Wallet</button>
+      <Link to='/quizselection'>
+      <button onClick={onConnectWallet}>Login </button>
+
+      </Link>
     </div>
   );
 };
