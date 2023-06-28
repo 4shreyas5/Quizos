@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./components/Login";
 import QuizSelection from "./components/QuizSelection";
 import QuizApp1 from "./components/QuizApp1";
 import QuizApp2 from "./components/QuizApp2";
