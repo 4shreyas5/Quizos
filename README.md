@@ -49,10 +49,10 @@ Install the dependencies and devDependencies and start the server.
 | Project Pictures | https://drive.google.com/drive/folders/1oPWk03bGRj_ZzuvCWZjzoko8JgXMmpoU?usp=sharing |
 
 ## Team members
- - @akanshaBharti
- - @Jyotendra Singh Chuahan
- - @tiwarimanvi
- - @4shreyas5
+ - [akanshaBharti]([https://breakdance.github.io/breakdance/](https://github.com/akanshaBharti))
+ - [Jyotendra Singh Chuahan] ()
+ - [tiwarimanvi](https://github.com/tiwarimanvi)
+ - [4shreyas5] (https://github.com/4shreyas5)
 
 **Hackathon Project !**
 
