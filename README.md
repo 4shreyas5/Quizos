@@ -23,7 +23,7 @@ Quizos leverages the power of the Tezos blockchain to ensure secure and transpar
 
 - ReactJs
 - Tailwind CSS
-- Taquito
+- Taquito.js
 - SmartPy
 
 ## Installation
