@@ -48,11 +48,11 @@ Install the dependencies and devDependencies and start the server.
 | PPT | https://docs.google.com/presentation/d/1w8nnb65C_akoG01FRnpSUbIlC3Vp9D8n/edit?usp=sharing&ouid=118030122319902430580&rtpof=true&sd=true |
 | Project Pictures | https://drive.google.com/drive/folders/1oPWk03bGRj_ZzuvCWZjzoko8JgXMmpoU?usp=sharing |
 
-## Contributors
- - akanshaBharti
- - Jyotendra Singh Chuahan
- - tiwarimanvi
- - 4shreyas5
+## Team members
+ - @akanshaBharti
+ - @Jyotendra Singh Chuahan
+ - @tiwarimanvi
+ - @4shreyas5
 
 **Hackathon Project !**
 
